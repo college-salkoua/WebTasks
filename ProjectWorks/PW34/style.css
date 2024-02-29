@@ -1,0 +1,33 @@
+body {
+    background-color: hsl(0, 0%, 80%);
+    /*font-size: 200px;*/
+}
+.in {
+    font-size: 1in;
+    color: red;
+}
+.cm {
+    font-size: 1cm;
+    color: #ff0000;
+}
+.mm {
+    font-size: 10mm;
+}
+.pt {
+    font-size: 10pt;
+}
+.pc {
+    font-size: 1.0pc;
+}
+.em {
+    font-size: 4em;
+}
+.ex {
+    font-size: 4ex;
+}
+.px {
+    font-size: 22px;
+}
+.precent {
+    font-size: 200%;
+}

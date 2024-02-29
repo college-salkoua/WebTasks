@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3Ц, Мусаєв Джаміль</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="name">
+            Мусаєв Джаміль
+        </div>
+        <div class="clock">
+            <script>
+                function clock() {
+                    var date = new Date();
+                    var hours = date.getHours();
+                    var minutes = date.getMinutes();
+                    var seconds = date.getSeconds();
+                    if (hours < 10) hours = "0" + hours;
+                    if (minutes < 10) minutes = "0" + minutes;
+                    if (seconds < 10) seconds = "0" + seconds;
+                    document.getElementsByClassName("clock")[0].innerHTML = hours + ":" + minutes + ":" + seconds;
+                }
+                setInterval(clock, 1000);
+            </script>
+        </div>
+    </div>
+    <div class="container-top">
+        <div class="left-group">
+            <div class="block-left">
+                Ким я є?
+            </div>
+            <div class="block-left">
+                Що пропоную
+            </div>
+            <div class="block-left" id="bg-gray">
+                Curriculum vitae
+            </div>
+            <div class="block-left" id="bg-lime">
+                Контактні дані
+            </div>
+        </div>
+        <div class="right-group">
+            <div class="block-right">
+                Вітаю в моємоу портфоліо <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-bottom">
+        <div class="left-group">
+            <div class="left-block">
+                <p><i>Talk is cheap. Show me the code!</i> -Linus Torvalds, розробник Linux</p>
+            </div>
+        </div>
+        <div class="right-group">
+            <div class="right-block">
+                <div class="mini-blocks yt">
+                    <nav>YT</nav>
+                </div>
+                <div class="mini-blocks fb">
+                    <nav>Fb</nav>
+                </div>
+                <div class="mini-blocks google">
+                    <nav>Google</nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        2024 Ⓒ Мусаєв Джаміль - Portfolio. Не пропоную спвпрацю! hidden@gmail.com
+    </div>
+</body>
+</html>

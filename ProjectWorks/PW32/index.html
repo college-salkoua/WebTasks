@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Форма для відправлення інформації про студента</title>
+</head>
+<body>
+
+<form action="/submit" method="post">
+
+  <label for="fullname">Повне ім'я:</label><br>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+
+  <label for="email">Електронна пошта:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="gender">Стать:</label><br>
+  <select id="gender" name="gender">
+    <option value="male">Чоловіча</option>
+    <option value="female">Жіноча</option>
+    <option value="other">Інше</option>
+  </select><br><br>
+
+  <label for="birthday">Дата народження:</label><br>
+  <input type="date" id="birthday" name="birthday" required><br><br>
+
+  <label for="address">Адреса:</label><br>
+  <textarea id="address" name="address" required></textarea><br><br>
+
+  <label for="studentId">ID студента:</label><br>
+  <input type="text" id="studentId" name="studentId" required><br><br>
+
+  <label for="password">Пароль:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <input type="submit" value="Відправити">
+
+</form>
+
+</body>
+</html>

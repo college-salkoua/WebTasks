@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS3</title>
+    <style type="text/css">
+        #blue {
+            color: blue;
+        }
+        .red {
+            color: red;
+        }
+        p {
+            color: green;
+        }
+        p:nth-child(odd) {
+            background-color: lime;
+        }
+        input[type="password"] {
+            background-color: lime;
+        }
+        * {
+            color: silver;
+        }
+        p::first-letter {
+            color: brown;
+        }
+        p:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi harum </p>
+    <p class="red">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi harum </p>
+    <p id="blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi harum </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi harum </p>
+    <p class="red">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi harum </p>
+    <input type="text" name="pr">
+    <input type="password" name="pas">
+</body>
+</html>
